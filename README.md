@@ -36,6 +36,29 @@ The project is designed to evolve toward an automated document-ingestion pipelin
 - [Contributing](#contributing)
 - [License](#license)
 
+## Docker Image
+
+WhatsApp-Courses is distributed as a Docker image through Docker Hub.
+
+- **Docker Hub:** [elouzi09/whatsapp-courses](https://hub.docker.com/r/elouzi09/whatsapp-courses)
+- **Image:** `elouzi09/whatsapp-courses`
+- **Tags:** `latest`, `0.1.0`
+
+Pull the image:
+
+```bash
+docker pull elouzi09/whatsapp-courses:latest
+```
+
+You can also use a specific version:
+
+```bash
+docker pull elouzi09/whatsapp-courses:0.1.0
+```
+
+See the [Quick Start](#quick-start) section for configuration and execution instructions.
+
+
 ## Features
 
 - **Google Drive integration** using the Google API Python client.
@@ -76,6 +99,8 @@ The project is designed to evolve toward an automated document-ingestion pipelin
 - A Google Cloud project with the Google Drive API enabled.
 - OAuth 2.0 credentials for a **Desktop application**.
 - Git, to clone the repository.
+
+
 
 ## Quick Start
 
